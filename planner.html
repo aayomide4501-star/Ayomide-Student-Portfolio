@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Academic Planner | Student Portfolio - COS 106</title><link rel="stylesheet" href="style.css"></head>
+<body><header><nav class="nav"><a class="logo" href="index.html">My<span>Portfolio</span></a><button id="menuBtn" aria-label="Menu">☰</button><ul id="navLinks"><li><a class="" href="index.html">Home</a></li><li><a class="" href="about.html">About Me</a></li><li><a class="" href="projects.html">Projects</a></li><li><a class="active" href="planner.html">Academic Planner</a></li><li><a class="" href="contact.html">Contact</a></li></ul></nav></header><main>
+<h1>Academic Planner</h1><section><p id="taskCount"></p>
+<form id="taskForm"><label>Task<input type="text" id="taskInput" placeholder="e.g. Read COS 106 Chapter 3" required></label><label>Due Date<input type="date" id="taskDate"></label><label>Priority<select id="taskPriority"><option>High</option><option>Medium</option><option>Low</option></select></label><button class="btn" type="submit">Add Task</button></form>
+<div class="filters"><button class="active" data-filter="all">All</button><button data-filter="active">Active</button><button data-filter="completed">Completed</button></div><ul id="taskList" style="list-style:none"></ul></section>
+</main><footer><p>&copy; 2026 Abimbola Lutifulahi Ayomide &bull; COS 106 - Introduction to Web Technologies &bull; Term Project</p></footer><script src="script.js"></script></body></html>
